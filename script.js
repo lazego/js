@@ -62,3 +62,11 @@ document.querySelector("#btn-4").onclick = (event) => {
 document.querySelector("#btn10").onclick = () => {
   alert("1");
 };
+
+document.querySelector("#inpbtn").onclick = () => {
+  alert("5");
+};
+document.querySelector("#p3").onclick = () => {
+  alert("3");
+};
+
