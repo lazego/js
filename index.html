@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center">Стартуем и пишем первую программу</h1>
+      <h2 class="text-center">
+        Курс JavaScript 2.0 <br />
+        Лащенко Александра
+      </h2>
+      <input type="password" id="one" />
+      <button>Push</button>
+      <input type="color" id="two" />
+      <button id="button-color">Push</button>
+      <input type="date" id="three" />
+      <button id="button-date">Push</button>
+    </div>
+    <div class="container">
+      <input type="range" id="range" min="0" max="200" value="30" />
+      <!--value-начальное положение ползунка-->
+      <button id="button-range">Push</button>
+      <span>30</span>
+
+      <hr />
+      <input type="checkbox" id="i2" value="Hello" />
+      <!--checkbox-это галочка-->
+      <label for="i2">click me</label>
+      <!--for это id элемента к которому он привязан, это нужно для того чтобы происходило выделение checkbox-->
+      <button id="btn-1">Push</button>
+      <hr />
+      <textarea name="" id="free" cols="30" rows="10"></textarea>
+      <!--textarea колонка для текста-->
+      <button id="btn-3">Push</button>
+      <hr />
+      <!--форма позволяет привязать кнопку к двум элементам, и обращаться к ней как к одному массиву-->
+      <form action="">
+        <!--action ато адрес куда будет отправлено-->
+        <textarea
+          name=""
+          id="textforms"
+          cols="30"
+          rows="10"
+          name="n1"
+        ></textarea>
+        <!--textarea колонка для текста-->
+        <input type="text" id="forminput" name="n2" />
+        <button id="btn-4">Push</button>
+      </form>
+      <hr />
+      <button id="btn10">номер задачи</button>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
